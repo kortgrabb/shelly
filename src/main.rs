@@ -12,6 +12,7 @@ fn spawn_input_handler() -> JoinHandle<ShellResult<()>> {
 
             if line.as_str() == "exit" {
                 break;
+                //
             }
         }
 
